@@ -1,11 +1,12 @@
 <template>
-  <router-view />
+  <q-page class="q-pa-md">Detailed device page</q-page>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "App",
+  name: "DetailDevice",
 });
 </script>
+
